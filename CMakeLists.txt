@@ -86,7 +86,7 @@ catkin_package (
 
 ## Specify additional locations of header files
 # include_directories($ENV{EIGEN3_INCLUDE_DIR} ${pipol_tracker_INCLUDE_DIRS} ${catkin_INCLUDE_DIRS})
-include_directories(src/pipol_tracker_lib/ ${OpenCV_INCLUDE_DIR} ${EIGEN_INCLUDE_DIRS} ${catkin_INCLUDE_DIRS})
+include_directories(src/pipol_tracker_lib/ ${OpenCV_INCLUDE_DIR} ${Eigen_INCLUDE_DIRS} ${catkin_INCLUDE_DIRS})
 
 ## Declare a cpp executable
 add_executable(pipol_tracker_node ${SRCS_ROS_NODE} ${SRCS_PT_LIB})
